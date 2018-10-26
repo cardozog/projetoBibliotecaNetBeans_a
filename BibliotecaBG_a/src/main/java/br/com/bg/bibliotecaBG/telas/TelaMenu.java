@@ -142,7 +142,7 @@ public class TelaMenu extends javax.swing.JFrame {
                 .addComponent(jpaDataHora, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jpaLogoEmpresa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addContainerGap(34, Short.MAX_VALUE))
         );
 
         jdpTelaFilha.setBackground(new java.awt.Color(102, 102, 102));
@@ -151,7 +151,7 @@ public class TelaMenu extends javax.swing.JFrame {
         jdpTelaFilha.setLayout(jdpTelaFilhaLayout);
         jdpTelaFilhaLayout.setHorizontalGroup(
             jdpTelaFilhaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 459, Short.MAX_VALUE)
+            .addGap(0, 460, Short.MAX_VALUE)
         );
         jdpTelaFilhaLayout.setVerticalGroup(
             jdpTelaFilhaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
