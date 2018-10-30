@@ -21,7 +21,7 @@ public class TelaCadastroUsuario extends javax.swing.JInternalFrame {
      */
     public TelaCadastroUsuario() {
         initComponents();
-       controlador = new ControladorTelaMenu(this, jdpTelaFilha, jlaHora, jlaData, jlaDia);
+       controladorTelaMenu = new ControladorTelaMenu(this,jlaHora, jlaData, jlaDiaSemana);
     }
 
 
@@ -143,7 +143,7 @@ public class TelaCadastroUsuario extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
     private void  jmiCadastroCliente(java.awt.event.ActionEvent evt){
-        controlador.exibirTelaCadastroCliente();
+
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -162,5 +162,5 @@ public class TelaCadastroUsuario extends javax.swing.JInternalFrame {
     private javax.swing.JTextField jtfNome;
     private javax.swing.JTextField jtfRG;
     // End of variables declaration//GEN-END:variables
-    private ControladorTelaMenu controlador;
+    private ControladorTelaMenu controladorTelaMenu;
 }

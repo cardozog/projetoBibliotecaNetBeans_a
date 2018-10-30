@@ -1,5 +1,6 @@
 package br.com.bg.bibliotecaBG.telas;
 
+import br.com.bg.bibliotecaBG.controladores.ControladorTela;
 import br.com.bg.bibliotecaBG.controladores.ControladorTelaMenu;
 
 /**
@@ -194,7 +195,7 @@ public class TelaMenu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jmiCadastrarUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmiCadastrarUsuariosActionPerformed
-        // TODO add your handling code here:
+        controlador.exibirTelaCadastroUsuario();
     }//GEN-LAST:event_jmiCadastrarUsuariosActionPerformed
 
    
@@ -215,4 +216,5 @@ public class TelaMenu extends javax.swing.JFrame {
     private javax.swing.JPanel jpaUsuarioLogado;
     // End of variables declaration//GEN-END:variables
    private ControladorTelaMenu controladorTelaMenu;
+   private ControladorTela controlador;
 }
